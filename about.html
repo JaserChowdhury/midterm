@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>About</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='nav.css'> <!--Have 1 common stylesheet for the navbar that you can link on every page-->
+    <link rel='stylesheet' type='text/css' media='screen' href='about.css'>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<!--Animate on Scroll (AOS), Picture Editing, Favicons, Clipping an image to text, -->
+
+<body>
+    <div class="navbar">
+        <div class="logo"><!-- Leave empty for now --></div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="coursework.html">Coursework</a></li>
+                <li><a href="artifacts.html">Artifacts</a></li>
+                <li><a href="modules.html">Modules</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="creative.html">Creative</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="validated.html">Validated</a></li>
+            </ul>
+        </div>
+    </div>
+    <img src="jaser3.png" alt="jaser" id="foreground">
+    <div class="intro" data-aos="fade-up" data-aos-duration="4000" data-aos-once="true">
+        <h1 data-aos="fade-up" data-aos-duration="8000" data-aos-once="true">Jaser<br>Chowdhury</h1>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 3000,
+            once: false,
+        });
+    </script>
+    <div class="content"></div>
+</body>
+</html>
