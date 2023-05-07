@@ -1,0 +1,1 @@
+This is where all the validation images will be stored so as to not clutter everything together
